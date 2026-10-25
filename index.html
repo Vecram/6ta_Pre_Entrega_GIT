@@ -145,7 +145,6 @@
         }
     </style>
 
-    <base target="_blank">
 </head>
 
 <body>
@@ -156,7 +155,7 @@
                 <!-- Logo -->
                 <div class="logo_y_lista">
                     <a class="navbar-brand" href="./index.html">
-                        <img src="/assets/img/logo.png"Logo personal">
+                        <img src="./assets/img/logo.png" alt="Logo personal">
                     </a>
                 </div>
 
@@ -188,25 +187,26 @@
                                 Inicio
                             </a>
 
-                            <a class="nav-link" href="./Pages/faq-y-sobre-mi.html">
+                            <a class="nav-link" href="./pages/faq-y-sobre-mi.html">
                                 FAQ - Sobre Mi
                             </a>
 
-                            <a class="nav-link" href="./Pages/">
+                            <a class="nav-link" href="./pages/proyectos.html">
                                 Proyectos
                             </a>
 
-                            <a class="nav-link" href="./Pages/habilidades.html">
+                            <a class="nav-link" href="./pages/habilidades.html">
                                 Habilidades
                             </a>
 
-                            <a class="nav-link" href="./Pages/contacto.html">
+                            <a class="nav-link" href="./pages/contacto.html">
                                 Contacto
                             </a>
 
                         </div>
                     </div>
                 </dialog>
+
             </div>
         </nav>
     </header>
@@ -221,136 +221,83 @@
                 <button>Deseo saber más</button>
             </div>
         </div>
-
+    
         <div class="margenes_globales">
             <section>
-
+            
                 <div class="info">
                     <h2>¿Cómo puedo ayudarte?</h2>
                     <p>Cada proyecto es diferente, pero estas son las principales áreas en las que
                         trabajo para potenciar marcas y negocios.</p>
                 </div>
-
-                <div id="carouselExampleContent" class="carousel slide">
-
-                    <div class="carousel-inner rounded-5">
-
-                        <!-- Tarjeta 1 -->
-                        <div class="carousel-item active">
-                            <div class="d-flex flex-column align-items-center justify-content-center bg-1 p-4 rounded-5"
-                                style="min-height: 320px;">
-
-                                <figure class="cards_image">
-                                    <img src="./assets/img/images.jpg" alt="Diseño gráfico" class="img-fluid rounded-4">
-                                </figure>
-
-                                <div class="card_content text-center">
-                                    <h3>Diseño Gráfico</h3>
-                                    <p>Diseño y desarrollo de marcas</p>
-                                </div>
-
+            
+                <div class="contenedor_grid">
+                    <div class="itemgrid1">
+                        <article>
+                            <figure class="cards_image">
+                                <img src="./assets/img/images.jpg" alt="">
+                            </figure>
+                            <div class="card_content">
+                                <h3>Diseño Gráfico</h3>
+                                <p>Diseño y desarrollo de marcas</p>
                             </div>
-                        </div>
-
-                        <!-- Tarjeta 2 -->
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column align-items-center justify-content-center bg-1 p-4 rounded-5"
-                                style="min-height: 320px;">
-
-                                <figure class="cards_image">
-                                    <img src="./assets/img/images.jpg" alt="Diseño UX/UI" class="img-fluid rounded-4">
-                                </figure>
-
-                                <div class="card_content text-center">
-                                    <h3>Diseño UX/UI</h3>
-                                    <p>Desarrollo de Experiencias e Interfaces</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Tarjeta 3 -->
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column align-items-center justify-content-center bg-1 p-4 rounded-5"
-                                style="min-height: 320px;">
-
-                                <figure class="cards_image">
-                                    <img src="./assets/img/images.jpg" alt="Diseño web y SEO"
-                                        class="img-fluid rounded-4">
-                                </figure>
-
-                                <div class="card_content text-center">
-                                    <h3>Diseño Web y SEO</h3>
-                                    <p>Diseño, desarrollo y optimización de sitios</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Tarjeta 4 -->
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column align-items-center justify-content-center bg-1 p-4 rounded-5"
-                                style="min-height: 320px;">
-
-                                <figure class="cards_image">
-                                    <img src="./assets/img/images.jpg" alt="Imagen de prueba"
-                                        class="img-fluid rounded-4">
-                                </figure>
-
-                                <div class="card_content text-center">
-                                    <h3>titulo prueba</h3>
-                                    <p>lalalal</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Tarjeta 5 -->
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column align-items-center justify-content-center bg-1 p-4 rounded-5"
-                                style="min-height: 320px;">
-
-                                <figure class="cards_image">
-                                    <img src="./assets/img/images.jpg" alt="Imagen de prueba"
-                                        class="img-fluid rounded-4">
-                                </figure>
-
-                                <div class="card_content text-center">
-                                    <h3>titulo prueba</h3>
-                                    <p>lalalal</p>
-                                </div>
-
-                            </div>
-                        </div>
-
+                        </article>            
                     </div>
-
-                    <!-- Controles del carrusel -->
-                    <div class="d-flex justify-content-center gap-2 mt-3">
-
-                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
-                            data-bs-slide="prev" aria-label="Tarjeta anterior"
-                            style="--bs-carousel-control-icon-width: 1rem;">
-
-                            <span class="carousel-icon-prev" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
-
-                        </button>
-
-                        <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselExampleContent"
-                            data-bs-slide="next" aria-label="Tarjeta siguiente"
-                            style="--bs-carousel-control-icon-width: 1rem;">
-
-                            <span class="carousel-icon-next" aria-hidden="true"></span>
-                            <span class="visually-hidden">Siguiente</span>
-
-                        </button>
-
+            
+                    <div class="itemgrid2">
+                        <article>
+                            <figure class="cards_image">
+                                <img src="./assets/img/images.jpg" alt="">
+                            </figure>
+                            <div class="card_content">
+                                <h3>Diseño UX/UI</h3>
+                                <p>Desarrollo de Experiencias e Interfaces</p>
+                            </div>
+                        </article>            
                     </div>
-
+            
+                    <div class="itemgrid3">
+                        <article>
+                            <figure class="cards_image">
+                                <img src="./assets/img/images.jpg" alt="">
+                            </figure>
+            
+                            <div class="card_content">
+                                <h3>Diseño Web y Seo</h3>
+                                <p>Diseño, desarrollo y optimización de sitios</p>
+                            </div>
+                        </article>            
+                    </div>
+            
+                    <div class="itemgrid4">
+                        <article>
+                            <figure class="cards_image">
+                                <img src="./assets/img/images.jpg" alt="">
+                            </figure>
+            
+                            <div class="card_content">
+                                <h3>titulo prueba</h3>
+                                <p>lalalal</p>
+                            </div>
+                        </article>            
+                    </div>
+            
+                    <div class="itemgrid5">
+                        <article>
+                            <figure class="cards_image">
+                                <img src="./assets/img/images.jpg" alt="">
+                            </figure>
+            
+                            <div class="card_content">
+                                <h3>titulo prueba</h3>
+                                <p>lalalal</p>
+                            </div>
+                        </article>
+            
+                    </div>
+            
                 </div>
-
-
+            
             </section>
         </div>
     </main>
@@ -359,28 +306,24 @@
         <div class="margenes_globales">
             <hr>
             <br>
-
+        
             <div class="redes">
                 <a href="https://www.facebook.com/" target="_blank">
                     <img src="facebook.png" alt="Facebook">
                 </a>
-
+        
                 <a href="https://www.instagram.com/" target="_blank">
                     <img src="instagram.png" alt="Instagram">
                 </a>
-
+        
                 <a href="mailto:tuemail@gmail.com">
                     <img src="email.png" alt="Email">
                 </a>
             </div>
             <br>
-            <p class="copyright">Copyright © 2026 Tu Nombre Completo. Todos los derechos reservados. Todo el material
-                visual
-                y
+            <p class="copyright">Copyright © 2026 Tu Nombre Completo. Todos los derechos reservados. Todo el material visual y
                 creativo presentado
-                en este portfolio es propiedad intelectual de su autor y no podrá ser utilizado, reproducido o
-                distribuido
-                sin
+                en este portfolio es propiedad intelectual de su autor y no podrá ser utilizado, reproducido o distribuido sin
                 autorización previa por escrito.</p>
         </div>
     </footer>
